@@ -15,9 +15,9 @@ The CAN frames are received and sent via an MCP2515 CAN controller.
 #include <mcp2515.h>
 
 // pin consts
-const int CS_PIN = 10;/*TODO*/ // CAN pin
-const int PIN_LED = 2;/*TODO*/ // LED pin
-const int PIN_PC0 = 14;/*TODO*/ // SomeinputIguess pin
+const int CS_PIN = 10; // CAN pin
+const int PIN_LED = 2; // LED pin
+const int PIN_PC0 = 14; // SomeinputIguess pin
 
 // create MCP2515 object
 MCP2515 CAN1(CS_PIN); //1 indexing
