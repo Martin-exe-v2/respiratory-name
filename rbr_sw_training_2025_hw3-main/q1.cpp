@@ -47,7 +47,7 @@ void loop() {
             digitalWrite(PIN_LED, HIGH);
             
             // read the analog value from the input pin and store it as a variable
-            analogValue = analogRead(PIN_PC0, HIGH);
+            uint16_t analogValue = analogRead(PIN_PC0, HIGH);
             
             // prepare the CAN frame to send
             txFrame.can_id = 0x690; // replace with desired send ID
